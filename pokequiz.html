@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokequiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="start-screen" class="start-screen">
+    <img src="imagens/nome-jogo.png" alt="Nome do jogo" class="logo-jogo">
+    <button id="start-btn">Começar</button>
+  </div>
+
+  <div class="quiz-container hidden" id="quiz-container">
+    <h1>Pokequiz</h1>
+    <div id="quiz">
+      <img id="question-image" src="" alt="Imagem da pergunta" class="question-image">
+
+      <h2 id="question">Pergunta aparecerá aqui</h2>
+      <ul id="answers"></ul>
+      <button id="next-btn">Próxima</button>
+    </div>
+    <div id="result" class="hidden">
+      <h2>Seu resultado:</h2>
+      <p id="score"></p>
+      <button onclick="restartQuiz()">Jogar novamente</button>
+      <h3>Ranking:</h3>
+      <ol id="ranking-list"></ol>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
