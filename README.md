@@ -13,6 +13,6 @@ https://hmmoura.github.io/Pokequiz/
 </p>
 <p align="center">
   <img width="50" height="50" lazy="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"/>
-  <img width="50" height="50" lazy="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"/>
+  <img width="50" height="30" lazy="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"/>
   <img width="50" height="50" lazy="lazy" src="https://wildcardcorp.com/image-repository/javascript-icon.png/@@images/image.png"/>
 </p>
