@@ -35,11 +35,11 @@ body {
 }
 
 #tela-inicial {
-  background-image: url('imagens/bg.inicila2.png'); 
+  background-image: url('imagens/bg.inicial.png'); 
 }
 
 #tela-quiz {
-  background-image: url('imagens/bg2.inicial.jpg'); 
+  background-image: url('imagens/bg.quiz.jpg'); 
 }
 
 #tela-final {
