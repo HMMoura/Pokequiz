@@ -3,7 +3,7 @@
 </p>
 <p align="center">
 <img loading="lazy" src="https://img.shields.io/badge/Em%20desenvolvimento%20-%20Em%20desenvolvimento?label=Status"/>
-<img loading="lazy" src="	https://img.shields.io/github/stars/henriquesebastiao/badges"/>
 </p>
+<img loading="lazy" src="	https://img.shields.io/github/stars/henriquesebastiao/badges"/>
 https://hmmoura.github.io/Pokequiz/
 
