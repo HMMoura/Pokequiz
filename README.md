@@ -11,4 +11,4 @@ Test your knowledge by answering multiple-choice questions and find out how much
 <p align="center">
 https://hmmoura.github.io/Pokequiz/
 </p>
-<img lazy="lazy" src="https://wildcardcorp.com/image-repository/javascript-icon.png/@@images/image.png"/>
+<img width="50" height="50" lazy="lazy" src="https://wildcardcorp.com/image-repository/javascript-icon.png/@@images/image.png"/>
