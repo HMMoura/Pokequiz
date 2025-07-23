@@ -20,6 +20,6 @@ https://hmmoura.github.io/Pokequiz/
   <img width="50" height="50" lazy="lazy" src="https://wildcardcorp.com/image-repository/javascript-icon.png/@@images/image.png"/>
 </p>
 <img width="80" height="80" lazy="lazy" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img width="80" height="80" lazy="lazy" src="![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)"/>
+<img width="80" height="80" lazy="lazy" src="![CSS3]https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
 <img width="80" height="80" lazy="lazy" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img width="80" height="80" lazy="lazy" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
