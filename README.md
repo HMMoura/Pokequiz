@@ -19,4 +19,6 @@ https://hmmoura.github.io/Pokequiz/
   <img width="36" height="50" lazy="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"/>
   <img width="50" height="50" lazy="lazy" src="https://wildcardcorp.com/image-repository/javascript-icon.png/@@images/image.png"/>
 </p>
-| [<img loading="lazy" src="https://i.pinimg.com/474x/a8/da/22/a8da222be70a71e7858bf752065d5cc3.jpg" width=115><br><sub>Heyky Martins Moura</sub>](https://github.com/HMMoura) | 
+| [<img loading="lazy" src="https://i.pinimg.com/474x/a8/da/22/a8da222be70a71e7858bf752065d5cc3.jpg" width=115><br><sub>Heyky Martins Moura</sub>](https://github.com/HMMoura) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
+| :---: | :---: | :---: |
+
