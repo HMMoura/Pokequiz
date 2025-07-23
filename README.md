@@ -19,7 +19,4 @@ https://hmmoura.github.io/Pokequiz/
   <img width="36" height="50" lazy="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"/>
   <img width="50" height="50" lazy="lazy" src="https://wildcardcorp.com/image-repository/javascript-icon.png/@@images/image.png"/>
 </p>
-<img width="80" height="80" lazy="lazy" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-<img width="80" height="80" lazy="lazy" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
-<img width="80" height="80" lazy="lazy" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-<img width="80" height="80" lazy="lazy" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+| [<img loading="lazy" src="" width=115><br><sub>Heyky Martins Moura</sub>](https://github.com/HMMoura) | 
