@@ -5,8 +5,8 @@
   </p>
 <h1 align="center"> Descrição do Projeto </h1>
 </p>
-PokéQuiz is a fun and interactive quiz game about the Pokémon universe!
-Test your knowledge by answering multiple-choice questions and find out how much you really know about the Pokémon world.
+PokéQuiz é um jogo de perguntas divertido e interativo sobre o universo Pokémon!
+Teste seus conhecimentos respondendo a perguntas de múltipla escolha e descubra o quanto você realmente sabe sobre o mundo Pokémon.
 <h1 align="center"> Acesso ao Projeto </h1>
 <p align="center">
 https://hmmoura.github.io/Pokequiz/
