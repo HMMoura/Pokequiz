@@ -19,4 +19,7 @@ https://hmmoura.github.io/Pokequiz/
   <img width="36" height="50" lazy="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"/>
   <img width="50" height="50" lazy="lazy" src="https://wildcardcorp.com/image-repository/javascript-icon.png/@@images/image.png"/>
 </p>
-
+<br>
+<p align="center">
+**Aviso:* Este projeto é apenas para fins de entretenimento. Pokémon é uma marca registrada da Nintendo, Game Freak e Creatures Inc. Não tenho qualquer afiliação com essas empresas.
+</p>
