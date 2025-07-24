@@ -220,3 +220,9 @@ function resetarQuiz() {
   telaInicial.style.display = "flex";
 }
 
+document.getElementById("btn-comecar").onclick = () => {
+  document.getElementById("musica-fundo").play();
+  telaInicial.style.display = "none";
+  telaQuiz.style.display = "flex";
+  iniciarPergunta();
+};

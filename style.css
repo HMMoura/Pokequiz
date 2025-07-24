@@ -154,3 +154,12 @@ button.errada {
   color: blue;
   text-decoration: underline;
 }
+
+.link-imagem {
+  position: fixed;     /* fixa no canto da tela */
+  top: 10px;           /* distância do topo */
+  right: 10px;         /* distância da direita */
+  width: 50px;         /* tamanho pequeno */
+  cursor: pointer;     /* cursor de mãozinha */
+  z-index: 1000;       /* garante que fique por cima de outros elementos */
+}
