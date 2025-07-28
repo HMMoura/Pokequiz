@@ -154,3 +154,64 @@ button.errada {
   color: blue;
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  #logo {
+    max-width: 90%;
+    height: auto;
+  }
+
+  #pergunta {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  #opcoes {
+    width: 100%;
+    gap: 10px;
+  }
+
+  #opcoes button {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  #tempo {
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    padding: 8px 14px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+
+  #sair {
+    font-size: 16px;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+  }
+
+  #mensagem-final,
+  #frase-final {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  #paginacao {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #paginacao span {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .tela {
+    padding: 10px;
+  }
+}
