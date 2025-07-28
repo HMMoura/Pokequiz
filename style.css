@@ -234,3 +234,7 @@ body {
     font-size: 14px;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
