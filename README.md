@@ -21,5 +21,5 @@ https://hmmoura.github.io/Pokequiz/
 </p>
 <br>
 <p align="center">
-**Aviso**: Este projeto é apenas para fins de entretenimento. Pokémon é uma marca registrada da Nintendo, Game Freak e Creatures Inc. Não tenho qualquer afiliação com essas empresas.
+__Aviso__: Este projeto é apenas para fins de entretenimento. Pokémon é uma marca registrada da Nintendo, Game Freak e Creatures Inc. Não tenho qualquer afiliação com essas empresas.
 </p>
