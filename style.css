@@ -6,6 +6,7 @@ body {
   background-color: #00bcd4;
   background-size: cover;
   background-position: center;
+  overflow-x: hidden;
 }
 
 *,
@@ -91,22 +92,15 @@ button.errada {
   border-radius: 10px;
 }
 
-/*#pergunta {
-  font-size: 36px;
-  color: yellow;
-  -webkit-text-stroke: 1px black; 
-  text-shadow: 2px 2px 0 black; 
-  margin-bottom: 20px;
-}*/
-
 #pergunta {
-  font-size: 32px;
+  font-size: clamp(22px, 4vw, 36px); /* responsivo */
   color: #fff200; 
   text-shadow: 1px 1px 2px #000;
   margin-bottom: 20px;
   line-height: 1.4;
   padding: 0 15px;
   word-break: break-word;
+  text-align: center;
 }
 
 #opcoes {
@@ -119,6 +113,7 @@ button.errada {
 
 #opcoes button {
   width: 100%;
+  word-wrap: break-word;
 }
 
 #sair {
@@ -134,6 +129,8 @@ button.errada {
   display: flex;
   gap: 10px;
   margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #paginacao span {
@@ -144,13 +141,7 @@ button.errada {
   font-weight: bold;
 }
 
-#mensagem-final {
-  font-size: 36px;
-  color: yellow;
-  -webkit-text-stroke: 1px black; 
-  text-shadow: 2px 2px 0 black; 
-}
-
+#mensagem-final,
 #frase-final {
   font-size: 36px;
   color: yellow;
@@ -169,18 +160,19 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+html {
+  scroll-behavior: smooth;
 }
+
+/* ------------------- RESPONSIVO ------------------- */
 
 @media (max-width: 768px) {
   .tela {
-    padding: 10px;
-    background-size: cover;
-    background-position: center;
+    background-size: contain; /* mostra o fundo inteiro sem cortar */
     background-repeat: no-repeat;
+    background-position: center;
+    max-height: 100vh;
+    overflow-y: auto;
   }
 
   #logo {
@@ -189,10 +181,9 @@ body {
   }
 
   #pergunta {
-    font-size: 22px;
+    font-size: clamp(20px, 5vw, 30px);
     padding: 0 15px;
     line-height: 1.4;
-    word-wrap: break-word;
   }
 
   #opcoes {
@@ -200,15 +191,10 @@ body {
     gap: 10px;
   }
 
-  #opcoes button {
-    font-size: 16px;
-    padding: 12px;
-    word-wrap: break-word;
-  }
-
+  #opcoes button,
   button {
     font-size: 16px;
-    padding: 12px 25px;
+    padding: 12px 20px;
   }
 
   #tempo {
@@ -231,18 +217,8 @@ body {
     padding: 0 10px;
   }
 
-  #paginacao {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-  }
-
   #paginacao span {
     padding: 8px 12px;
     font-size: 14px;
   }
-}
-
-html {
-  scroll-behavior: smooth;
 }
