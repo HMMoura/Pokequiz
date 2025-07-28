@@ -45,9 +45,9 @@ const perguntas = [
     resposta: 2
   },
   {
-    pergunta: "Qual Pokémon evolui para Raichu?",
-    opcoes: ["Jigglypuff", "Meowth", "Pikachu", "Zubat"],
-    resposta: 2
+    pergunta: "Em qual região os Pokémon iniciais são Rowlet, Litten e Popplio?",
+    opcoes: ["Kalos", "Galar", "Sinnoh", "Alola"],
+    resposta: 3
   },
   {
     pergunta: "Qual é o inicial de água da região de Kanto?",
@@ -55,24 +55,24 @@ const perguntas = [
     resposta: 1
   },
   {
-    pergunta: "Qual é o tipo principal do Gengar?",
-    opcoes: ["Fada", "Fantasma", "Normal", "Água"],
-    resposta: 1
-  },
-  {
-    pergunta: "Qual Pokémon é conhecido por dormir o tempo todo?",
-    opcoes: ["Snorlax", "Abra", "Slowpoke", "Eevee"],
+    pergunta: "Qual destes Pokémon é do tipo Dragão?",
+    opcoes: ["Dragonite", "Gyarados", "Charizard", "Aerodactyl"],
     resposta: 0
   },
   {
+    pergunta: "Qual Pokémon foi o primeiro a ser criado pelos desenvolvedores?",
+    opcoes: ["Pikachu", "Rhydon", "Bulbasaur", "Mew"],
+    resposta: 1
+  },
+  {
     pergunta: "Qual desses não é um Pokémon lendário?",
-    opcoes: ["Mewtwo", "Zapdos", "Charizard", "Articuno"],
+    opcoes: ["Mewtwo", "Zapdos", "Tyranitar", "Suicune"],
     resposta: 2
   },
   {
-    pergunta: "Qual tipo é forte contra o tipo Pedra?",
-    opcoes: ["Fogo", "Voador", "Água", "Elétrico"],
-    resposta: 2
+    pergunta: "Qual é o Pokémon inicial de fogo da região de Sinnoh?",
+    opcoes: ["Cyndaquil", "Chimcar", "Tepig", "Litten"],
+    resposta: 1
   },
   {
     pergunta: "Qual é a evolução do Bulbasaur?",
@@ -80,9 +80,24 @@ const perguntas = [
     resposta: 1
   },
   {
-    pergunta: "Qual desses Pokémon tem uma pedra na testa?",
-    opcoes: ["Onix", "Golem", "Geodude", "Solrock"],
-    resposta: 3
+    pergunta: "Qual destes Pokémon tem duas cabeças?",
+    opcoes: ["Dugtrio", "Exeggcute", "Doduo", "Gible"],
+    resposta: 2
+  },
+  {
+    pergunta: "Qual é o Pokémon que representa o tempo?",
+    opcoes: ["Dialga", "Palkia", "Giratina", "Arceus"],
+    resposta: 0
+  },
+  {
+    pergunta: "Qual é a forma evoluída de Tyrogue se seu Ataque for maior que a Defesa?",
+    opcoes: ["Hitmonlee", "Hitmonchan", "Hitmontop", "Não evolui"],
+    resposta: 0
+  },
+  {
+    pergunta: "Qual Pokémon é conhecido como o 'Devorador de Sonhos'?",
+    opcoes: ["Drowzee", "Darkrai", "Hypno", "Buzzwole"],
+    resposta: 2
   }
 ];
 
@@ -138,7 +153,7 @@ function verificarResposta(index) {
   const respostaCorreta = perguntas[perguntaAtual].resposta;
 
   opcoesBotoes.forEach((btn, i) => {
-    btn.disabled = true; // Desativa botões
+    btn.disabled = true; 
     if (i === respostaCorreta) {
       btn.classList.add("correta");
     }
@@ -152,11 +167,11 @@ function verificarResposta(index) {
   setTimeout(() => {
     perguntaAtual++;
     iniciarPergunta();
-  }, 800); // aguarda antes de ir para a próxima
+  }, 800); 
 }
 
 function iniciarCronometro() {
-  tempo = 10;
+  tempo = 12;
   atualizarTempo();
 
   cronometro = setInterval(() => {
@@ -219,10 +234,3 @@ function resetarQuiz() {
   telaQuiz.style.display = "none";
   telaInicial.style.display = "flex";
 }
-
-document.getElementById("btn-comecar").onclick = () => {
-  document.getElementById("musica-fundo").play();
-  telaInicial.style.display = "none";
-  telaQuiz.style.display = "flex";
-  iniciarPergunta();
-};
