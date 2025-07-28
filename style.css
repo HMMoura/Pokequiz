@@ -91,12 +91,22 @@ button.errada {
   border-radius: 10px;
 }
 
-#pergunta {
+/*#pergunta {
   font-size: 36px;
   color: yellow;
   -webkit-text-stroke: 1px black; 
   text-shadow: 2px 2px 0 black; 
   margin-bottom: 20px;
+}*/
+
+#pergunta {
+  font-size: 32px;
+  color: #fff200; 
+  text-shadow: 1px 1px 2px #000;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  padding: 0 15px;
+  word-break: break-word;
 }
 
 #opcoes {
@@ -159,14 +169,12 @@ html, body {
   overflow-x: hidden;
 }
 
-/* Garante que o fundo sempre cubra a tela */
 body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-/* Responsivo geral para celular e tablet */
 @media (max-width: 768px) {
   .tela {
     padding: 10px;
