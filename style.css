@@ -155,15 +155,36 @@ button.errada {
   text-decoration: underline;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+/* Garante que o fundo sempre cubra a tela */
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Responsivo geral para celular e tablet */
 @media (max-width: 768px) {
+  .tela {
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   #logo {
     max-width: 90%;
     height: auto;
   }
 
   #pergunta {
-    font-size: 24px;
-    padding: 0 10px;
+    font-size: 22px;
+    padding: 0 15px;
+    line-height: 1.4;
+    word-wrap: break-word;
   }
 
   #opcoes {
@@ -174,18 +195,19 @@ button.errada {
   #opcoes button {
     font-size: 16px;
     padding: 12px;
-  }
-
-  #tempo {
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
-    padding: 8px 14px;
+    word-wrap: break-word;
   }
 
   button {
     font-size: 16px;
     padding: 12px 25px;
+  }
+
+  #tempo {
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    padding: 8px 14px;
   }
 
   #sair {
@@ -204,14 +226,11 @@ button.errada {
   #paginacao {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 8px;
   }
 
   #paginacao span {
     padding: 8px 12px;
     font-size: 14px;
-  }
-
-  .tela {
-    padding: 10px;
   }
 }
